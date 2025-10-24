@@ -20,8 +20,8 @@ The design is kept minimal and responsive for better readability.
 
 ## 🛠️ Technologies Used
 
-* **HTML5** — for structure
-* **CSS3** — for styling and hover effects
+* **HTML5** - for structure
+* **CSS3** - for styling and hover effects
 
 No JavaScript or frameworks were used — it’s a basic project to show fundamental web design skills.
 

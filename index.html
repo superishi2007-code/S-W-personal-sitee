@@ -1,41 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Eating Tips</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>My Healthy Eating Tips 🍎</h1>
-    <p>Hi! I'm Rishi, and here are some simple tips I follow to stay healthy and active.</p>
-    <h2>Top 5 Tips</h2>
-    <ul>
-        <li>Eat more fruits and vegetables daily.</li>
-        <li>Drink at least 8 glasses of water.</li>
-        <li>Avoid junk food as much as possible.</li>
-        <li>Have your meals on time.</li>
-        <li>Exercise a little every day!</li>
-    </ul>
-    <img src="https://cdn.pixabay.com/photo/2016/02/19/11/30/salad-1206037_1280.jpg" alt="Healthy Salad" width="300">
-    <h2>My Daily Meal Plan</h2>
-    <table border="1">
-        <tr>
-            <th>Meal</th>
-            <th>What I Eat</th>
-        </tr>
-        <tr>
-            <td>Breakfast</td>
-            <td>Oats, milk, and banana</td>
-        </tr>
-        <tr>
-            <td>Lunch</td>
-            <td>Rice, dal, and vegetables</td>
-        </tr>
-        <tr>
-            <td>Dinner</td>
-            <td>Roti, paneer, and salad</td>
-        </tr>
-    </table>
-    <p id="footer">Made by Rishi — learning HTML & CSS 😄</p>
+    <!-- Navigation -->
+    <header>
+        <h1>HealthyLife 🍎</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#tips">Tips</a>
+            <a href="#nutrition">Nutrition</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Eat Smart, Live Better 🌿</h2>
+            <p>Small changes in your meals can make a big difference in your health and happiness.</p>
+            <a href="#tips" class="btn">Explore Tips</a>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="content">
+        <h2>🍋 Top Healthy Eating Tips</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://i.pinimg.com/1200x/37/d0/19/37d019aa265724f5145b86985841cb1c.jpg" alt="Fruits and vegetables">
+                <h3>Eat More Fruits & Veggies</h3>
+                <p>Add colorful fruits and veggies daily for more vitamins and energy.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/1200x/88/e3/d8/88e3d8ae407a74b0c1c994c445359ccc.jpg" alt="Hydration">
+                <h3>Stay Hydrated</h3>
+                <p>Drink enough water to keep your body fresh and active all day.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/1200x/18/40/f4/1840f42aad35b245ba346c0f1948ca2a.jpg" alt="Whole grains">
+                <h3>Choose Whole Grains</h3>
+                <p>Switch to oats, brown rice, or quinoa for long-lasting energy.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/a9/07/42/a90742b71d4e8331ebeb9c1366f20497.jpg" alt="Balanced meals">
+                <h3>Balanced Meals</h3>
+                <p>Include protein, carbs, and healthy fats in every meal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutrition Facts -->
+    <section id="nutrition" class="content yellow">
+        <h2>🥦 Quick Nutrition Facts</h2>
+        <p>🍎 Apples help your heart • 🥕 Carrots improve vision • 🍌 Bananas boost energy • 🥬 Spinach makes bones strong</p>
+        <img src="https://i.pinimg.com/1200x/73/e5/3b/73e53b90582234841d8d04d93faaa122.jpg" alt="Nutrition infographic">
+    </section>
+
+    <!-- About -->
+    <section id="about" class="content">
+        <h2>About This Page</h2>
+        <p>This website inspires healthy living through simple and colorful ideas. Small daily choices lead to a big difference in your life!</p>
+        <img src="https://i.pinimg.com/1200x/df/72/a5/df72a5757cb53b06f823786d41809de9.jpg" alt="Healthy lifestyle">
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="content yellow">
+        <h2>💬 Contact Us</h2>
+        <p>Have a question or suggestion? Email us at <a href="mailto:info@healthylife.com">info@healthylife.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 HealthyLife | Designed with ❤️ and Good Food</p>
+    </footer>
+
 </body>
 </html>

@@ -1,0 +1,141 @@
+/* Reset basic spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #4b1f64;
+    color: #ffde2f;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav {
+    margin-top: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffde2f;
+}
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(rgba(75,31,100,0.6), rgba(75,31,100,0.6)), url("https://wafarecipes.com/wp-content/uploads/2025/06/Image_fx-90-2.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #ffde2f;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #ef405b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #fab73d;
+    color: #4b1f64;
+}
+
+/* General Section */
+.content {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.yellow {
+    background-color: #f7e447;
+}
+
+.content h2 {
+    color: #ef405b;
+    margin-bottom: 25px;
+}
+
+/* Tips Cards */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #4b1f64;
+    margin-bottom: 8px;
+}
+
+/* Section Images */
+.content img {
+    width: 70%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #4b1f64;
+    color: #ffde2f;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+/* Responsive for small screens */
+@media (max-width: 900px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+    .hero h2 {
+        font-size: 28px;
+    }
+}
